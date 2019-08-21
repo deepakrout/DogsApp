@@ -1,7 +1,8 @@
-package com.iappstogo.dogsapp
+package com.iappstogo.dogsapp.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.iappstogo.dogsapp.R
 
 class MainActivity : AppCompatActivity() {
 
