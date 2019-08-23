@@ -27,6 +27,7 @@ class ListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        //Set Nav direction when the button i clicked
         buttonDetails.setOnClickListener {
             val action :NavDirections = ListFragmentDirections.actionListFragmentToActionDetailFragment()
             Navigation.findNavController(it).navigate(action)
