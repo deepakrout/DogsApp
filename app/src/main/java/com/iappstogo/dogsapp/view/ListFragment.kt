@@ -29,7 +29,8 @@ class ListFragment : Fragment() {
 
         //Set Nav direction when the button i clicked
         buttonDetails.setOnClickListener {
-            val action :NavDirections = ListFragmentDirections.actionListFragmentToActionDetailFragment()
+            val action :ListFragmentDirections.ActionListFragmentToActionDetailFragment = ListFragmentDirections.actionListFragmentToActionDetailFragment()
+            action.dogUuid = 5
             Navigation.findNavController(it).navigate(action)
         }
     }
