@@ -14,6 +14,7 @@ import kotlinx.android.synthetic.main.fragment_list.*
 import java.util.*
 
 
+//Fragments: List Fragment
 class ListFragment : Fragment() {
 
     override fun onCreateView(
@@ -24,16 +25,7 @@ class ListFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_list, container, false)
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
 
-        //Set Nav direction when the button i clicked
-        buttonDetails.setOnClickListener {
-            val action :ListFragmentDirections.ActionListFragmentToActionDetailFragment = ListFragmentDirections.actionListFragmentToActionDetailFragment()
-            action.dogUuid = 5
-            Navigation.findNavController(it).navigate(action)
-        }
-    }
 
 
 }

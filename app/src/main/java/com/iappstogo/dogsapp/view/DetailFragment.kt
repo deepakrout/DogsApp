@@ -32,13 +32,10 @@ class DetailFragment : Fragment() {
         //Retirving arguments
         arguments?.let {
             dogUuid = DetailFragmentArgs.fromBundle(it).dogUuid
-            textView2.text = dogUuid.toString()
+
         }
 
-        buttonList.setOnClickListener{
-            val action :NavDirections = DetailFragmentDirections.actionDetailFragmentToActionListFragment()
-            Navigation.findNavController(it).navigate(action)
-        }
+
     }
 
 }
