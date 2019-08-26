@@ -35,6 +35,8 @@ class DetailFragment : Fragment() {
 
         }
 
+        //TODO: Logic to navigate to list
+
 
     }
 
