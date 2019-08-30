@@ -31,6 +31,7 @@ class DetailFragment : Fragment() {
 
         //Retirving arguments
         arguments?.let {
+            //Initializing to the local variable.
             dogUuid = DetailFragmentArgs.fromBundle(it).dogUuid
 
         }
