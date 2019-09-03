@@ -1,5 +1,6 @@
 package com.iappstogo.dogsapp.model
 
+//Dog model
 data class DogBreed (
     val breedId: String?,
     val dogBreed: String?,
