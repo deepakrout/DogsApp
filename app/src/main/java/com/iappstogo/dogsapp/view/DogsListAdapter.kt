@@ -8,6 +8,7 @@ import com.iappstogo.dogsapp.R
 import com.iappstogo.dogsapp.model.DogBreed
 import kotlinx.android.synthetic.main.item_dog.view.*
 
+//Recycle view adapter
 class DogsListAdapter(val dogsList: ArrayList<DogBreed>) : RecyclerView.Adapter<DogsListAdapter.DogViewHolder>() {
 
     fun updateDogList(newDogsList: List<DogBreed>) {
