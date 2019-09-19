@@ -24,7 +24,7 @@ class DogsListAdapter(val dogsList: ArrayList<DogBreed>) : RecyclerView.Adapter<
     }
 
     //Get item counts
-    //TODO: complete the recycle view implementation
+
     override fun getItemCount() = dogsList.size
 
     override fun onBindViewHolder(holder: DogViewHolder, position: Int) {
