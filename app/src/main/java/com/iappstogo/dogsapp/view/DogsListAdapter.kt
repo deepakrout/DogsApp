@@ -28,6 +28,7 @@ class DogsListAdapter(val dogsList: ArrayList<DogBreed>) : RecyclerView.Adapter<
     override fun getItemCount() = dogsList.size
 
     override fun onBindViewHolder(holder: DogViewHolder, position: Int) {
+        //Bind the view holder
 
         holder.view.name.text = dogsList[position].dogBreed
         holder.view.lifeSpan.text = dogsList[position].lifeSpan

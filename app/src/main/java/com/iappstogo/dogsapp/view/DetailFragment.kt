@@ -29,7 +29,7 @@ class DetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        //Retirving arguments
+        //Retrieving arguments - and processing it
         arguments?.let {
             //Initializing to the local variable.
             dogUuid = DetailFragmentArgs.fromBundle(it).dogUuid
