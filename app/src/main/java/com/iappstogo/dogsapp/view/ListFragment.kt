@@ -33,7 +33,7 @@ class ListFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_list, container, false)
     }
 
-    //onViewCreated to get the view up and running
+    //onViewCreated to get the view up and running - 09/21/2019
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
