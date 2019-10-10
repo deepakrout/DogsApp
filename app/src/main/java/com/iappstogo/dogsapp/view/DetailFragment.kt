@@ -16,7 +16,7 @@ import kotlinx.android.synthetic.main.fragment_detail.*
 class DetailFragment : Fragment() {
 
     private var dogUuid = 0
-    private var humanUuid = "RIN-000-56432-0908IKM"
+    private var humanUuid = "RIN-000-56432-0908IKM-09UYHG"
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
