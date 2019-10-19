@@ -33,7 +33,7 @@ class ListFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_list, container, false)
     }
 
-    //onViewCreated to get the view up - 10/17/2019
+    //onViewCreated to get the view up - 10/19/2019
     //More changes required here. Please see the spec.
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
