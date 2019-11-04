@@ -2,11 +2,12 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorCalm">#4CAD50</color>
+    <color name="perfectCalm">#07CD10</color>
+    <color name="colorCharcoal">#36454f</color>
+    <color name="colorDarkRed">#CD1C07</color>
     <color name="colorAccent">#D81B60</color>
     <color name="colorDanger">#CC3334</color>
     <color name="colorHappiness">#FFF333</color>
     <color name="colorImportant">#FF9900</color>
-    <color name="colorCalm">#4CAD50</color>
-    <color name="colorCharcoal">#36454f</color>
-    <color name="colorDarkRed">#CD1C07</color>
 </resources>
